@@ -75,6 +75,8 @@ class Ui(QtWidgets.QMainWindow):
 def main():
     app = QtWidgets.QApplication(sys.argv)
     window = Ui()
+    window.setWindowTitle("EasyWatermark")
+    window.setFixedSize(562, 336)
     window.show()  # MAKE WINDOW VISIBLE
     app.exec()  # EVENT LOOP
 
